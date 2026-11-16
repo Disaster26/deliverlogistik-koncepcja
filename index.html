@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Transport i spedycja Bydgoszcz - Deliver Logistik</title>
+<meta name="description" content="Transport krajowy i międzynarodowy, drobnica i spedycja drogowa z Bydgoszczy. Od przesyłki paletowej po ładunek ponadgabarytowy. Tel. +48 885 512 512.">
+<meta name="theme-color" content="#063049">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-720.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w, img/hero-m-1060.webp 1060w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1440.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1440.webp 1440w, img/hero-1690.webp 1690w" imagesizes="78vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/archivo-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/inter-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:Archivo;src:url(fonts/archivo-rdzen.woff2) format("woff2");font-weight:600 800;font-stretch:75% 100%;font-display:swap;unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:Archivo;src:url(fonts/archivo-pl.woff2) format("woff2");font-weight:600 800;font-stretch:75% 100%;font-display:swap;unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:Inter;font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/inter-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:Inter;font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/inter-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--o:#E67817;--o2:#CC6610;--b:#005D90;--nv:#063049;--nv2:#04233A;--t:#0E1B26;--s:#4A5866;--g:#EEF2F5;--l:#D5DDE4;--hh:68px;--gut:clamp(16px,3.6vw,56px);--w:1320px;--sk:-12deg}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--t);background:#fff;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:Archivo,"Arial Narrow",Arial,sans-serif;font-stretch:85%;font-weight:800;line-height:1.04;letter-spacing:-.01em;margin:0}
+h2{font-size:clamp(32px,3.6vw,54px)}
+h3{font-size:clamp(21px,1.7vw,25px);font-weight:700;line-height:1.15}
+p{margin:0}
+.wrap{width:min(var(--w),100% - 2*var(--gut));margin-inline:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 34px;background:var(--o);color:#0B1A26;font:700 17px/1 Inter,system-ui,sans-serif;text-decoration:none;border:0;cursor:pointer;clip-path:polygon(12px 0,100% 0,calc(100% - 12px) 100%,0 100%);transition:background .15s}
+.btn:hover,.btn:focus-visible{background:#F28A2E}
+.btn svg{width:18px;height:18px}
+/* header */
+.hd{position:sticky;top:0;z-index:50;height:var(--hh);background:#fff;border-bottom:1px solid var(--l)}
+.hd .wrap{height:100%;display:flex;align-items:center;gap:28px}
+.logo{display:block;flex:none}
+.logo img{height:52px;width:auto}
+.nav{display:flex;gap:4px;margin-left:auto}
+.nav a{position:relative;padding:10px 12px;text-decoration:none;font-weight:600;font-size:15.5px;color:var(--t)}
+.nav a::after{content:"";position:absolute;left:12px;right:12px;bottom:3px;height:4px;background:var(--o);transform:skewX(var(--sk)) scaleX(0);transform-origin:left;transition:transform .2s}
+.nav a:hover::after,.nav a.on::after{transform:skewX(var(--sk)) scaleX(1)}
+.tel{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:Archivo,Arial,sans-serif;font-stretch:88%;font-weight:700;font-size:20px;color:var(--b);white-space:nowrap}
+.tel svg{width:20px;height:20px;color:var(--o)}
+.burger{display:none}
+/* hero */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;align-items:center;background:var(--nv2);color:#fff;overflow:hidden;padding:0}
+.hero-foto{position:absolute;inset:0 0 0 22%;margin:0}
+.hero-foto img{width:100%;height:100%;object-fit:cover;object-position:68% 50%}
+.hero-foto::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#04233A 0,rgba(4,35,58,.8) 18%,rgba(4,35,58,.35) 40%,rgba(4,35,58,0) 60%)}
+.hero-in{position:relative;width:min(var(--w),100% - 2*var(--gut));margin-inline:auto;padding:40px 0}
+.hero-txt{position:relative;max-width:820px;padding-left:clamp(56px,4.6vw,84px)}
+.hero h1{position:relative;font-size:clamp(44px,4.5vw,84px);font-stretch:82%}
+.hero h1::before{content:"";position:absolute;left:calc(-1*clamp(56px,4.6vw,84px));top:.06em;bottom:.02em;width:clamp(8px,.6vw,12px);background:var(--o);transform:skewX(var(--sk));transform-origin:0 100%}
+.hero .lead{margin:24px 0 36px;font-size:clamp(17px,1.3vw,21px);line-height:1.55;color:#E3ECF3;max-width:600px}
+/* sekcje */
+main>section{padding:clamp(64px,8vw,120px) 0}
+main>.hero{padding:0}
+.intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 64px;align-items:end;margin-bottom:48px}
+.intro p{color:var(--s);font-size:18px;max-width:560px}
+/* oferta */
+.uslugi{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.usl{min-width:0}
+.usl figure{margin:0 0 20px;aspect-ratio:4/3;overflow:hidden;clip-path:polygon(0 0,100% 0,100% calc(100% - 34px),calc(100% - 34px*1.2) 100%,0 100%);background:var(--g)}
+.usl img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.usl:hover img{transform:scale(1.04)}
+.usl h3{margin-bottom:10px}
+.usl p{color:var(--s);font-size:16px}
+/* zlecenie (ciemna) */
+.ciemna{position:relative;background:var(--nv);color:#fff;clip-path:polygon(0 0,100% 64px,100% 100%,0 100%);padding-top:calc(clamp(64px,8vw,120px) + 40px)}
+.zl{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:center}
+.zl p{color:#CFDCE6;font-size:18px;margin-top:22px}
+.kroki{list-style:none;margin:32px 0 0;padding:0;border-top:1px solid rgba(255,255,255,.18)}
+.kroki li{position:relative;padding:16px 0 16px 34px;border-bottom:1px solid rgba(255,255,255,.18);font-size:17px}
+.kroki li::before{content:"";position:absolute;left:4px;top:21px;width:6px;height:18px;background:var(--o);transform:skewX(var(--sk))}
+.kroki b{color:#fff}
+.zl figure{margin:0;aspect-ratio:1/1;overflow:hidden;clip-path:polygon(18% 0,100% 0,100% 100%,0 100%,0 22%)}
+.zl figure img{width:100%;height:100%;object-fit:cover}
+/* flota */
+.szara{background:var(--g)}
+.auta{border-top:2px solid var(--t)}
+.auto{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr) minmax(0,1.75fr);gap:24px 48px;padding:30px 0;border-bottom:1px solid var(--l);align-items:center}
+.auto h3 small{display:block;font:600 14px/1.4 Inter,sans-serif;color:var(--b);margin-top:6px;letter-spacing:0}
+.pas{position:relative;height:30px}
+.pas span{position:absolute;top:0;bottom:0;background:var(--o);clip-path:polygon(0 0,100% 0,calc(100% - 9px) 100%,0 100%)}
+.pas span+span{background:#F09A4E}
+.pas i{position:absolute;top:36px;font:600 13px/1 Inter,sans-serif;font-style:normal;color:var(--s);white-space:nowrap}
+.dane{display:grid;grid-template-columns:1.5fr 1fr 1fr .8fr;gap:12px 20px;margin:0}
+.dane dt{font-size:13px;color:var(--s)}
+.dane dd{margin:2px 0 0;font-weight:700;font-size:16px}
+.nacz{margin-top:28px;color:var(--s);max-width:880px}
+/* kierunki */
+.kier{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(32px,5vw,80px);align-items:start}
+.kier figure{margin:0;aspect-ratio:16/11;overflow:hidden;clip-path:polygon(0 0,100% 0,100% 100%,9% 100%,0 86%)}
+.kier figure img{width:100%;height:100%;object-fit:cover}
+.kier h3{margin:28px 0 12px;font-size:20px}
+.kier h3:first-of-type{margin-top:22px}
+.lista{columns:2;column-gap:28px;margin:0;padding:0;list-style:none;color:var(--s)}
+.lista li{break-inside:avoid;padding:6px 0;border-bottom:1px solid var(--l)}
+.kier .lead2{color:var(--s);font-size:18px;margin-top:18px}
+/* dokumenty */
+.dok{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;border-top:2px solid var(--t)}
+.dok li{list-style:none;padding:22px 20px 22px 0;border-bottom:1px solid var(--l);font-weight:600;font-size:16px;line-height:1.35}
+.dok li span{display:block;font-weight:400;font-size:14px;color:var(--s);margin-top:6px}
+.dok{margin:0;padding:0}
+/* zapytanie */
+.zap{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(32px,6vw,96px)}
+.zap .opis p{color:var(--s);font-size:18px;margin-top:20px}
+.kont{margin-top:32px;display:grid;gap:14px}
+.kont a{display:flex;gap:12px;align-items:center;text-decoration:none;font-weight:700;font-size:19px;color:var(--b)}
+.kont svg{width:20px;height:20px;color:var(--o);flex:none}
+form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 18px;background:var(--g);padding:clamp(20px,3vw,40px);clip-path:polygon(0 0,100% 0,100% 100%,40px 100%,0 calc(100% - 40px))}
+label{display:grid;gap:6px;font-size:14px;font-weight:600;min-width:0}
+.cala{grid-column:1/-1}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1px solid #C3CED8;background:#fff;color:var(--t);border-radius:0}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--b);outline-offset:0;border-color:var(--b)}
+textarea{min-height:96px;resize:vertical}
+.zgoda{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:13.5px;color:var(--s)}
+.zgoda input{width:20px;height:20px;flex:none;margin:1px 0 0}
+.wyn{grid-column:1/-1;margin:0;font-weight:600;color:var(--b)}
+/* kontakt */
+.kontakt{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(32px,5vw,80px);align-items:stretch}
+.kontakt address{font-style:normal;font-size:17px;line-height:1.7;margin-top:22px}
+.kontakt address b{display:block;font-size:18px}
+.kontakt .rej{margin-top:18px;color:var(--s);font-size:15px}
+.mapa{min-height:380px;background:#DDE5EC;position:relative}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+/* stopka */
+.ft{background:var(--nv2);color:#B9C8D4;padding:56px 0 28px;font-size:15px;overflow-wrap:anywhere}
+.ft .gr{display:grid;grid-template-columns:minmax(0,1.3fr) repeat(3,minmax(0,1fr));gap:32px}
+.ft img{height:60px;width:auto}
+.ft h4{font:700 15px/1.3 Inter,sans-serif;color:#fff;margin:0 0 12px}
+.ft ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.ft a{text-decoration:none}
+.ft a:hover{color:#fff}
+.ft .dol{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;align-items:center;margin-top:44px;padding-top:22px;border-top:1px solid rgba(255,255,255,.14);font-size:14px}
+.ft p{margin-top:16px;max-width:320px}
+/* pasek mobilny */
+.mob{display:none}
+@media (max-width:1180px){.nav a{padding:10px 8px;font-size:15px}.nav a::after{left:8px;right:8px}.hd .wrap{gap:18px}}
+@media (max-width:1020px){
+ .nav,.hd .tel span{display:none}
+ .hd .tel{margin-left:auto}
+ .burger{display:flex;align-items:center;justify-content:center;width:46px;height:46px;border:0;background:none;padding:0;cursor:pointer;color:var(--t)}
+ .burger svg{width:28px;height:28px}
+ .nav.otw{display:flex;position:fixed;top:var(--hh);left:0;right:0;bottom:0;flex-direction:column;gap:0;background:#fff;padding:12px var(--gut) 32px;overflow:auto}
+ .nav.otw a{font-family:Archivo,Arial,sans-serif;font-stretch:85%;font-size:28px;font-weight:700;padding:16px 0;border-bottom:1px solid var(--l)}
+ .nav.otw a::after{display:none}
+ .nav.otw a.on{color:var(--o2)}
+ .uslugi{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .auto{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr)}
+ .auto .dane{grid-column:1/-1}
+ .dok{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .ft .gr{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:760px){
+ :root{--hh:60px}
+ .logo img{height:44px}
+ .hd .tel{width:46px;height:46px;justify-content:center}
+ .hd .tel svg{width:24px;height:24px}
+ .hero{display:flex;flex-direction:column;align-items:stretch;min-height:calc(100svh - var(--hh))}
+ .hero-foto{position:relative;inset:auto;flex:1 1 0;min-height:min(70vw,34svh)}
+ .hero-foto img{position:absolute;inset:0;object-position:50% 75%}
+ .hero-foto::after{background:linear-gradient(180deg,rgba(4,30,48,0) 55%,rgba(6,48,73,.92) 92%,var(--nv) 100%)}
+ .hero{background:var(--nv)}
+ .hero-in{flex:0 0 auto;width:auto;margin:0;padding:6px var(--gut) 28px}
+ .hero-txt{padding-left:0}
+ .hero h1{padding-left:36px;font-size:clamp(34px,10vw,44px)}
+ .hero h1::before{left:2px;width:7px}
+ .hero .lead{margin:16px 0 24px;font-size:16px}
+ .hero .btn{width:100%;padding:0 20px}
+ .intro{grid-template-columns:minmax(0,1fr);margin-bottom:32px}
+ .intro p{font-size:17px}
+ .uslugi{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:16px;padding:0 0 8px;scrollbar-width:none}
+ .uslugi::-webkit-scrollbar{display:none}
+ .usl{flex:0 0 82%;scroll-snap-align:start}
+ .ciemna{clip-path:polygon(0 0,100% 32px,100% 100%,0 100%);padding-top:96px}
+ .zl,.kier,.zap,.kontakt{grid-template-columns:minmax(0,1fr)}
+ .zl figure{aspect-ratio:4/3}
+ .auto{grid-template-columns:minmax(0,1fr);gap:18px;padding:26px 0 30px}
+ .pas{margin-bottom:22px}
+ .dane{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .lista{columns:2}
+ .dok{grid-template-columns:minmax(0,1fr)}
+ form{grid-template-columns:minmax(0,1fr)}
+ .mapa{min-height:300px}
+ .ft{padding-bottom:96px}
+ .ft .gr>div:first-child,.ft .gr>div:last-child{grid-column:1/-1}
+ .ft .gr>div:last-child ul{grid-template-columns:repeat(2,minmax(0,auto));justify-content:start;column-gap:28px}
+ .mob{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px var(--gut) calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--l);transform:translateY(110%);transition:transform .25s}
+ .mob.widac{transform:none}
+ .mob a{min-height:48px;font-size:16px;padding:0 16px}
+ .mob .t{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-weight:700;color:var(--b);border:2px solid var(--b)}
+ .mob .t svg{width:18px;height:18px}
+}
+@media (max-width:380px){.hero h1{font-size:33px}.lista{columns:1}}
+@media (min-width:761px) and (max-height:800px){.hero h1{font-size:clamp(42px,4.2vw,64px)}.hero .lead{margin:18px 0 28px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<header class="hd">
+ <div class="wrap">
+  <a class="logo" href="#top" aria-label="Deliver Logistik - strona główna"><img src="img/logo.svg" width="117" height="52" alt="Deliver Logistik"></a>
+  <nav class="nav" id="nav" aria-label="Menu">
+   <a href="#oferta">Oferta</a>
+   <a href="#zlecenie">Jak działamy</a>
+   <a href="#flota">Flota</a>
+   <a href="#kierunki">Kierunki</a>
+   <a href="#dokumenty">Dokumenty</a>
+   <a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="tel" href="tel:+48885512512" aria-label="Zadzwoń: +48 885 512 512"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H4.5L3 5.5c0 8.5 7 15.5 15.5 15.5L21 19.5V16l-4.5-1.5-2 2c-3-1.4-5.6-4-7-7l2-2z"/></svg><span>885 512 512</span></a>
+  <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 28 28" fill="currentColor" aria-hidden="true"><path d="M5 7h19l-1 3H4zM4 13h19l-1 3H3zM3 19h19l-1 3H2z"/></svg></button>
+ </div>
+</header>
+
+<main id="top">
+<section class="hero" aria-label="Deliver Logistik">
+ <picture class="hero-foto">
+  <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w, img/hero-m-1060.webp 1060w" sizes="100vw">
+  <img src="img/hero-1440.webp" srcset="img/hero-1024.webp 1024w, img/hero-1440.webp 1440w, img/hero-1690.webp 1690w" sizes="(max-width:760px) 100vw, 78vw" width="1690" height="1123" alt="Niebieski ciągnik siodłowy z naczepą na trasie" fetchpriority="high">
+ </picture>
+ <div class="hero-in">
+  <div class="hero-txt">
+   <h1>Twój transport naszym priorytetem</h1>
+   <p class="lead">Transport krajowy i międzynarodowy, drobnica i spedycja drogowa z Bydgoszczy - od jednej palety po ładunek ponadgabarytowy.</p>
+   <a class="btn" id="cta" href="#zapytanie">Wyślij zapytanie transportowe <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M7 3h4l5 7-5 7H7l5-7z"/></svg></a>
+  </div>
+ </div>
+</section>
+
+<section id="oferta">
+ <div class="wrap">
+  <div class="intro">
+   <h2>Transport i spedycja drogowa</h2>
+   <p>Organizujemy przewozy w kraju i za granicą, także kabotaż. Dzięki stałym umowom z przewoźnikami i kontaktom w całej Europie dobieramy rozwiązanie do ładunku, terminu i budżetu.</p>
+  </div>
+  <div class="uslugi">
+   <article class="usl">
+    <figure><img src="img/krajowy-480.webp" srcset="img/krajowy-480.webp 480w, img/krajowy-800.webp 800w" sizes="(max-width:760px) 82vw, (max-width:1020px) 46vw, 300px" width="480" height="320" alt="Ciężarówka z naczepą plandekową na drodze" loading="lazy" decoding="async"></figure>
+    <h3>Transport krajowy</h3>
+    <p>Przewozy całopojazdowe i częściowe na terenie całej Polski, z odbiorem i dostawą pod wskazany adres.</p>
+   </article>
+   <article class="usl">
+    <figure><img src="img/miedzynarodowy-480.webp" srcset="img/miedzynarodowy-480.webp 480w, img/miedzynarodowy-800.webp 800w" sizes="(max-width:760px) 82vw, (max-width:1020px) 46vw, 300px" width="480" height="284" alt="Biały ciągnik z naczepą na nadmorskiej drodze" loading="lazy" decoding="async"></figure>
+    <h3>Transport międzynarodowy</h3>
+    <p>Trasy do Niemiec, Francji, Włoch, Hiszpanii, krajów Beneluksu, Wielkiej Brytanii i Skandynawii oraz przewozy kabotażowe.</p>
+   </article>
+   <article class="usl">
+    <figure><img src="img/drobnica-480.webp" srcset="img/drobnica-480.webp 480w, img/drobnica-800.webp 800w" sizes="(max-width:760px) 82vw, (max-width:1020px) 46vw, 300px" width="480" height="313" alt="Naczepy przy rampach załadunkowych magazynu" loading="lazy" decoding="async"></figure>
+    <h3>Transport drobnicowy</h3>
+    <p>Gdy liczy się koszt bardziej niż ekspres - doładunek kilku przesyłek do jednego auta, w kraju i za granicą.</p>
+   </article>
+   <article class="usl">
+    <figure><img src="img/spedycja-480.webp" srcset="img/spedycja-480.webp 480w, img/spedycja-800.webp 800w" sizes="(max-width:760px) 82vw, (max-width:1020px) 46vw, 300px" width="480" height="319" alt="Zestaw ciężarowy na autostradzie" loading="lazy" decoding="async"></figure>
+    <h3>Spedycja krajowa i międzynarodowa</h3>
+    <p>Bierzemy na siebie organizację całego przewozu i formalności, także przy nietypowych i skomplikowanych zleceniach.</p>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section class="ciemna" id="zlecenie">
+ <div class="wrap zl">
+  <div>
+   <h2>Jeden spedytor od załadunku do rozładunku</h2>
+   <p>Każde zlecenie prowadzi przypisany do niego spedytor. Pilnuje przewozu na każdym odcinku trasy i zawsze odpowie na pytanie, gdzie jest Państwa towar.</p>
+   <ul class="kroki">
+    <li><b>Zapytanie i wycena</b> - trasa, rodzaj ładunku, termin.</li>
+    <li><b>Dobór auta i naczepy</b> - od busa do zestawu, plandeka, chłodnia albo naczepa odkryta.</li>
+    <li><b>Kontrola przewozu</b> na każdym etapie trasy.</li>
+    <li><b>Informacja o statusie</b> aż do bezpiecznego rozładunku.</li>
+   </ul>
+  </div>
+  <figure><img src="img/drobnica-800.webp" srcset="img/drobnica-800.webp 800w, img/drobnica-1400.webp 1400w" sizes="(max-width:760px) 92vw, 46vw" width="800" height="522" alt="Widok z góry na naczepy przy rampach" loading="lazy" decoding="async"></figure>
+ </div>
+</section>
+
+<section class="szara" id="flota">
+ <div class="wrap">
+  <div class="intro">
+   <h2>Auto dobrane do ładunku</h2>
+   <p>W zależności od potrzeb podstawiamy jeden z czterech typów pojazdów. Pasek pokazuje długość przestrzeni ładunkowej, wymiary podajemy jako długość x szerokość x wysokość.</p>
+  </div>
+  <div class="auta">
+   <div class="auto">
+    <h3>Samochód dostawczy<small>BUS do 3,5 t - najszybsza dostawa, wjazd do centrum</small></h3>
+    <div class="pas"><span style="left:0;width:31%"></span><i style="left:0">4,8 m</i></div>
+    <dl class="dane"><div><dt>Wymiary</dt><dd>4,8 x 2,2 x 2,4 m</dd></div><div><dt>Objętość</dt><dd>ok. 25 m³</dd></div><div><dt>Ładowność</dt><dd>1,2-1,6 t</dd></div><div><dt>Europalety</dt><dd>do 10</dd></div></dl>
+   </div>
+   <div class="auto">
+    <h3>Samochód ciężarowy<small>Solówka - możliwa winda i wózek, dostawa door to door</small></h3>
+    <div class="pas"><span style="left:0;width:49.4%"></span><i style="left:0">7,6 m</i></div>
+    <dl class="dane"><div><dt>Wymiary</dt><dd>7,6 x 2,45 x 2,7 m</dd></div><div><dt>Objętość</dt><dd>ok. 50 m³</dd></div><div><dt>Ładowność</dt><dd>ok. 9 t</dd></div><div><dt>Europalety</dt><dd>do 18</dd></div></dl>
+   </div>
+   <div class="auto">
+    <h3>Ciągnik z naczepą<small>TIR - także mega do 3 m wysokości</small></h3>
+    <div class="pas"><span style="left:0;width:88.3%"></span><i style="left:0">13,6 m</i></div>
+    <dl class="dane"><div><dt>Wymiary</dt><dd>13,6 x 2,45 x 2,75 m</dd></div><div><dt>Objętość</dt><dd>90-100 m³</dd></div><div><dt>Ładowność</dt><dd>ok. 24 t</dd></div><div><dt>Europalety</dt><dd>do 33</dd></div></dl>
+   </div>
+   <div class="auto">
+    <h3>Ciężarówka z przyczepą<small>Zestaw - do lekkich ładunków przestrzennych</small></h3>
+    <div class="pas"><span style="left:0;width:49.4%"></span><span style="left:50.6%;width:49.4%"></span><i style="left:0">7,6 m + 7,8 m</i></div>
+    <dl class="dane"><div><dt>Wymiary</dt><dd>7,6 + 7,8 x 2,45 x 3 m</dd></div><div><dt>Objętość</dt><dd>110-120 m³</dd></div><div><dt>Ładowność</dt><dd>9-24 t</dd></div><div><dt>Europalety</dt><dd>do 38</dd></div></dl>
+   </div>
+  </div>
+  <p class="nacz">Pod załadunek podstawiamy naczepy plandekowe typu firanka (załadunek z boku, z góry i z tyłu), naczepy w sztywnej zabudowie - chłodnie i izotermy - oraz naczepy odkryte do transportu ponadgabarytowego.</p>
+ </div>
+</section>
+
+<section id="kierunki">
+ <div class="wrap kier">
+  <figure><img src="img/miedzynarodowy-800.webp" srcset="img/miedzynarodowy-800.webp 800w, img/miedzynarodowy-1600.webp 1600w" sizes="(max-width:760px) 92vw, 52vw" width="800" height="474" alt="Ciężarówka na krętej drodze nad morzem" loading="lazy" decoding="async"></figure>
+  <div>
+   <h2>Polska i cała Europa</h2>
+   <p class="lead2">Obsługujemy trasy krajowe, międzynarodowe i kabotażowe. Spedycję organizujemy z każdego dużego miasta w Polsce.</p>
+   <h3>Spedycja w Polsce</h3>
+   <ul class="lista"><li>Bydgoszcz</li><li>Toruń</li><li>Gdańsk</li><li>Gdynia</li><li>Warszawa</li><li>Poznań</li><li>Wrocław</li><li>Kraków</li><li>Katowice</li><li>Łódź</li><li>Szczecin</li><li>Rzeszów</li><li>Konin</li><li>Częstochowa</li></ul>
+   <h3>Kierunki w Unii Europejskiej</h3>
+   <ul class="lista"><li>Niemcy</li><li>Francja</li><li>Włochy</li><li>Hiszpania</li><li>Holandia</li><li>Belgia i Luksemburg</li><li>Wielka Brytania</li><li>Skandynawia</li></ul>
+  </div>
+ </div>
+</section>
+
+<section class="szara" id="dokumenty">
+ <div class="wrap">
+  <div class="intro">
+   <h2>Dokumenty przewoźnika</h2>
+   <p>Komplet dokumentów do weryfikacji przed zleceniem. Na docelowej stronie każdy będzie do pobrania jako PDF.</p>
+  </div>
+  <ul class="dok">
+   <li>Licencja spedycyjna<span>Forwarding License</span></li>
+   <li>Ubezpieczenie OCS<span>Forwarding Insurance</span></li>
+   <li>Licencja wspólnotowa<span>International License EU</span></li>
+   <li>Certyfikat kompetencji<span>Certificate of competence</span></li>
+   <li>Polisa Generali<span>Generali Insurance</span></li>
+  </ul>
+ </div>
+</section>
+
+<section id="zapytanie">
+ <div class="wrap zap">
+  <div class="opis">
+   <h2>Zapytanie transportowe</h2>
+   <p>Opiszcie trasę i ładunek - spedytor odpowie z wyceną. Pilne zlecenia najszybciej telefonicznie.</p>
+   <div class="kont">
+    <a href="tel:+48885512512"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H4.5L3 5.5c0 8.5 7 15.5 15.5 15.5L21 19.5V16l-4.5-1.5-2 2c-3-1.4-5.6-4-7-7l2-2z"/></svg>+48 885 512 512</a>
+    <a href="mailto:biuro@deliverlogistik.pl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18l-1.5 14h-15zM3 5l9 8 9-8"/></svg>biuro@deliverlogistik.pl</a>
+   </div>
+  </div>
+  <form id="form" novalidate>
+   <label>Miejsce załadunku<input name="z" autocomplete="off" placeholder="np. Bydgoszcz, 85-319"></label>
+   <label>Miejsce rozładunku<input name="do" autocomplete="off" placeholder="np. Lyon, Francja"></label>
+   <label>Data załadunku<input name="data" type="date"></label>
+   <label>Rodzaj ładunku<select name="rodzaj"><option>Palety</option><option>Drobnica / doładunek</option><option>Całe auto</option><option>Ponadgabaryt</option><option>Towar w temperaturze kontrolowanej</option></select></label>
+   <label>Waga lub liczba palet<input name="waga" placeholder="np. 6 palet, 3,2 t"></label>
+   <label>Wymiary (opcjonalnie)<input name="wym" placeholder="dł. x szer. x wys."></label>
+   <label>Firma i osoba kontaktowa<input name="kto" autocomplete="organization"></label>
+   <label>Telefon<input name="tel" type="tel" autocomplete="tel"></label>
+   <label class="cala">E-mail<input name="mail" type="email" autocomplete="email"></label>
+   <label class="cala">Uwagi<textarea name="uw" placeholder="Np. winda, chłodnia, godziny załadunku"></textarea></label>
+   <label class="zgoda cala"><input type="checkbox" name="rodo">Wyrażam zgodę na kontakt w sprawie zapytania. Administratorem danych jest Deliver Logistik Sp. z o.o.</label>
+   <div class="cala"><button class="btn" type="submit">Wyślij zapytanie</button></div>
+   <p class="wyn" id="wyn" role="status" hidden></p>
+  </form>
+ </div>
+</section>
+
+<section class="szara" id="kontakt">
+ <div class="wrap kontakt">
+  <div>
+   <h2>Kontakt</h2>
+   <address><b>Deliver Logistik Sp. z o.o.</b>ul. 16 Pułku Ułanów Wielkopolskich 1<br>85-319 Bydgoszcz<br><a href="tel:+48885512512">tel. +48 885 512 512</a><br>fax +48 52 373 90 28<br><a href="mailto:biuro@deliverlogistik.pl">biuro@deliverlogistik.pl</a></address>
+   <p class="rej">NIP 953-279-05-04 - KRS 0000983479 - REGON 522631280</p>
+  </div>
+  <div class="mapa" id="mapa" data-src="https://www.google.com/maps?q=ul.+16+Pu%C5%82ku+U%C5%82an%C3%B3w+Wielkopolskich+1,+85-319+Bydgoszcz&amp;output=embed" aria-label="Mapa dojazdu"></div>
+ </div>
+</section>
+</main>
+
+<footer class="ft">
+ <div class="wrap">
+  <div class="gr">
+   <div><img src="img/logo-w.svg" width="135" height="60" alt="Deliver Logistik"><p>Transport krajowy i międzynarodowy, drobnica i spedycja drogowa z Bydgoszczy.</p></div>
+   <div><h4>Oferta</h4><ul><li><a href="#oferta">Transport krajowy</a></li><li><a href="#oferta">Transport międzynarodowy</a></li><li><a href="#oferta">Drobnica</a></li><li><a href="#oferta">Spedycja</a></li></ul></div>
+   <div><h4>Firma</h4><ul><li><a href="#flota">Flota</a></li><li><a href="#kierunki">Kierunki</a></li><li><a href="#dokumenty">Dokumenty</a></li><li><a href="#zapytanie">Zapytanie</a></li></ul></div>
+   <div><h4>Kontakt</h4><ul><li><a href="tel:+48885512512">+48 885 512 512</a></li><li><a href="mailto:biuro@deliverlogistik.pl">biuro@deliverlogistik.pl</a></li><li>Bydgoszcz</li></ul></div>
+  </div>
+  <div class="dol">
+   <span>© <span id="rok">2026</span> Deliver Logistik Sp. z o.o.</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=deliverlogistik.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+ </div>
+</footer>
+
+<div class="mob" id="mob">
+ <a class="t" href="tel:+48885512512"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H4.5L3 5.5c0 8.5 7 15.5 15.5 15.5L21 19.5V16l-4.5-1.5-2 2c-3-1.4-5.6-4-7-7l2-2z"/></svg>Zadzwoń</a>
+ <a class="btn" href="#zapytanie">Zapytanie</a>
+</div>
+<script src="app.js" defer></script>
+</body>
+</html>
