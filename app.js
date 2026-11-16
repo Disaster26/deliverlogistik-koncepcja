@@ -6,7 +6,7 @@ n.addEventListener('click',function(e){if(e.target.tagName==='A')zamknij()});
 document.addEventListener('keydown',function(e){if(e.key==='Escape')zamknij()});
 var linki=[].slice.call(n.querySelectorAll('a')),sek=linki.map(function(a){return document.querySelector(a.getAttribute('href'))});
 if('IntersectionObserver' in window){
- var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){var i=sek.indexOf(e.target);linki.forEach(function(a,j){a.classList.toggle('on',j===i)})}})},{rootMargin:'-45% 0px -50% 0px'});
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){var i=scrollY<innerHeight*.6?-1:sek.indexOf(e.target);linki.forEach(function(a,j){a.classList.toggle('on',j===i)})}})},{rootMargin:'-45% 0px -50% 0px'});
  sek.forEach(function(s){s&&io.observe(s)});
  var cta=document.getElementById('cta'),mob=document.getElementById('mob');
  new IntersectionObserver(function(es){mob.classList.toggle('widac',!es[0].isIntersecting&&es[0].boundingClientRect.top<0)}).observe(cta);
